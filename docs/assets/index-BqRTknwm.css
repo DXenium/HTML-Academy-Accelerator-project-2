@@ -4107,9 +4107,9 @@ img {
 
 .footer__wrapper {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
   gap: 23px;
 }
 
