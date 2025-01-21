@@ -4078,7 +4078,112 @@ img {
   background-color: #bcdec3;
 }
 
-  .social {
+.contacts {
+  padding: 20px 15px 30px;
+  max-width: 480px;
+}
+
+@media (width >= 768px) {
+.contacts {
+  padding: 40px 43px 40px 45px;
+    max-width: 100%;
+}
+}
+
+@media (width >= 1440px) {
+.contacts {
+  padding: 0;
+  flex-basis: 50%;
+}
+}
+
+.contacts__title {
+  margin-bottom: 29px;
+  padding-top: 16px;
+}
+
+@media (width >= 768px) {
+.contacts__title {
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+}
+
+@media (width >= 1440px) {
+.contacts__title {
+  margin-bottom: 23px;
+  padding-top: 22px;
+}
+}
+
+@media (width >= 1440px) {
+.contacts__title::after {
+    bottom: -3px;
+}
+}
+
+.contacts p {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.contacts p>br {
+  display: none;
+}
+@media (width >= 768px) {
+.contacts p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 40px;
+}
+}
+
+@media (width >= 768px) {
+  .contacts p>br{
+    display: block;
+}
+}
+
+@media (width >= 1440px) {
+.contacts p {
+  margin-bottom: 50px;
+}
+}
+
+.contacts__wrapper {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+align-items: flex-start;
+justify-content: center;
+flex-direction: column;
+gap: 30px;
+max-width: 480px;
+}
+
+@media (width >= 768px) {
+  .contacts__wrapper {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 40px;
+    max-width: 100%;
+  }}
+
+  @media (width >= 1440px) {
+  .contacts__wrapper {
+    flex-direction: column;
+    gap: 35px;
+  }
+  }
+
+.social {
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -4117,7 +4222,7 @@ img {
   }
 
   .social__link--vk::before {
-    mask-image: url("./spritemap.800b3d12.svg#sprite-icon-vk-view");
+    mask-image: url("./spritemap.800b3d12.svg#sprite-vk-view");
   }
 
   .social__link--ok::before {
@@ -4636,4 +4741,5 @@ img {
   .swiper-rtl .swiper-button-prev::after {
     content: "next";
   }
+}
 }
