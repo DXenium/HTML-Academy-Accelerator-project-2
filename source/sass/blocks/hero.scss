@@ -223,13 +223,13 @@
 }
 
 .hero__detail--day::before {
-  background-image: url("/__spritemap#sprite-moon-view");
+  background-image: url("__spritemap#sprite-moon-view");
   background-repeat: no-repeat;
   background-size: 12px 12px;
 }
 
 .hero__detail--hight::before {
-  background-image: url("/__spritemap#sprite-level-view");
+  background-image: url("__spritemap#sprite-level-view");
   background-repeat: no-repeat;
   background-size: 12px 12px;
 }
