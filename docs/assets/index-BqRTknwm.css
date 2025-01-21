@@ -3988,11 +3988,14 @@ img {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-auto-flow: dense;
+  justify-items: center;
+  row-gap: 10px;
+  column-gap: 57px;
 }
 
 @media (width >= 768px) {
