@@ -4182,7 +4182,6 @@ max-width: 480px;
     gap: 35px;
   }
   }
-
 .social {
     margin: 0;
     padding: 0;
@@ -4219,6 +4218,7 @@ max-width: 480px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color:#2d383f;
   }
 
   .social__link--vk::before {
@@ -4226,11 +4226,11 @@ max-width: 480px;
   }
 
   .social__link--ok::before {
-    mask-image: url("./spritemap.800b3d12.svg#sprite-icon-ok-view");
+    mask-image: url("./spritemap.800b3d12.svg#sprite-ok-view");
   }
 
   .social__link--rd::before {
-    mask-image: url("./spritemap.800b3d12.svg#sprite-icon-rd-view");
+    mask-image: url("./spritemap.800b3d12.svg#sprite-rd-view");
   }
 
   @font-face {
