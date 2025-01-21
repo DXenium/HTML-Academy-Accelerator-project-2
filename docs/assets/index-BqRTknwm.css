@@ -352,7 +352,7 @@ img {
 
 .header__nav-toggle {
   background-color: #0266c1;
-  background-image: url("./assets/spritemap.800b3d12.svg#sprite-menu-view");
+  background-image: url("assets/spritemap.800b3d12.svg#sprite-menu-view");
   background-repeat: no-repeat;
   background-size: 26px 26px;
   border: none;
@@ -369,7 +369,7 @@ img {
 
 .header__nav-toggle--close {
   display: block;
-  background-image: url("./assets/spritemap.800b3d12.svg#sprite-cross-view");
+  background-image: url("assets/spritemap.800b3d12.svg#sprite-cross-view");
 }
 
 .header__nav-toggle--open {
@@ -832,13 +832,13 @@ img {
 }
 
 .hero__detail--day::before {
-  background-image: url("./assets/spritemap.800b3d12.svg#sprite-moon-view");
+  background-image: url("assets/spritemap.800b3d12.svg#sprite-moon-view");
   background-repeat: no-repeat;
   background-size: 12px 12px;
 }
 
 .hero__detail--hight::before {
-  background-image: url("./assets/spritemap.800b3d12.svg#sprite-level-view");
+  background-image: url("assets/spritemap.800b3d12.svg#sprite-level-view");
   background-repeat: no-repeat;
   background-size: 12px 12px;
 }
@@ -3608,7 +3608,7 @@ img {
 
 .form__group-phone:focus::placeholder,
 .form__group-phone:focus-visible::placeholder,
-.form__group-email:focus::-moz-placeholder,
+.form__group-email:focus::placeholder,
 .form__group-email:focus-visible::-moz-placeholder {
   color: #2d383f;
   opacity: 0.5;
